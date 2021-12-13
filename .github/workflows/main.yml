@@ -1,9 +1,5 @@
 name: Java CI # как называется Workflow
-on:
-  push:
-    branches:
-      - 'manager'
-      - '!main'
+on: [push] # когда срабатывает (на push)
 
 jobs: # какие задачи делаем
   build: # сборка
